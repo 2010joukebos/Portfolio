@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    min-height: 400vh;
+}
+
+h1 {
+    color: cornsilk;
+}
+
+.box {
+    width: 20%;
+    height: 2%;
+    background-color: rgba(126, 126, 126, 0.632);
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#item64 {
+    color: darkorchid
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-margin-top: 1500px;
+
+}
+
+#Ik_ben {
+    font-family: Arial;
+    text-align: center;
+    color: whitesmoke;
+}
