@@ -40,3 +40,16 @@ html {
     text-align: center;
     color: whitesmoke;
 }
+button:hover {
+  background-color: aqua;
+}
+
+#item1{
+    text-align: center;
+}
+#item2{
+    text-align: center;
+}
+#item3{
+    text-align: center;
+}
