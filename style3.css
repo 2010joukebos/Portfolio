@@ -36,3 +36,6 @@ body {
     text-align: center;
     color: green;
 }
+button:hover {
+  background-color: rgb(163, 29, 29);
+}
