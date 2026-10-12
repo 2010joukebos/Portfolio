@@ -53,3 +53,11 @@ button:hover {
 #item3{
     text-align: center;
 }
+
+.header_side {
+  background: linear-gradient(90deg, #A9EBAF 0%, #85D18C 25%, #6FBA76 49.52%, #60AA67 74.52%, #618965 100%);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
