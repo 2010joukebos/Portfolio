@@ -69,6 +69,12 @@ button:hover {
   justify-content: space-between;
   align-items: center;
 }
+#co1{
+    color: white;
+}
+#co2{
+    color: rgb(0, 229, 255);
+}
 
 #sk1{
     color: white;
