@@ -23,8 +23,8 @@ body {
 }
 
 .box {
-    width: 20%;
-    height: 2%;
+    width: 40%;
+    height: 6%;
     background-color: rgba(126, 126, 126, 0.632);
     padding: 20px;
     margin: 20px 20px 0px 20px;
@@ -47,3 +47,15 @@ button:hover {
   justify-content: space-between;
   align-items: center;
 }
+
+#tet1{
+    text-align: center;
+    color:aquamarine;
+}
+
+#tot1{
+    text-align: center;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
