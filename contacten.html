@@ -7,6 +7,12 @@
     <link rel="icon" type="image/x-icon" href="/Pic/the_sun.jpg">
     <link rel="stylesheet" href="style.css">
     <title>Contact</title>
+
+    <style>
+        input:focus{
+            border: 4px goldenrod;
+        } 
+    </style>
 </head>
 
 <body>
@@ -33,6 +39,24 @@
         <div class="box2">
             <p id="co2">u kunt vragen aan mij stelen of als u een leuk stage bedrijf heeft for my om te leren!</p>
         </div>
+        
+        <form action="2010joukebos@gmail.com" method="post">
+            <fieldset>
+                <legend>persoonlijk gevens</legend>
+                <label for="name"></label>
+                <input type="name" name="username" placeholder="naam" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+                 <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>heeft u nog vragen?</legend>
+                <input type="checkbox"> ja
+                <input type="checkbox"> nee
+            </fieldset>
+            <fieldset>
+            <input type="submit" value="verstuur">
+            </fieldset>
+        </form>
     </main>
 
     <footer>
