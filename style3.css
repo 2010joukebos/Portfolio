@@ -93,31 +93,3 @@ button:hover {
   left: 0;
 }
 
-@keyframes moveB {
-    0%{
-        left: 0%;
-    }
-
-    20%{
-        background-color: #ff2600;
-    }
-
-    40%{
-        background-color: blueviolet;
-    }
-
-    60%{
-        background-color: #2b51e6;
-    }
-
-    80%{
-        background-color: lightslategray;
-    }
-
-    100% {
-        left: calc(50% - 100px);
-        color: rgb(110, 105, 105);
-        background-color: rgb(0, 255, 247);
-    }
-   
-}
