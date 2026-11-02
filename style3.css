@@ -79,17 +79,4 @@ button:hover {
     border-radius: 10px;
 }
 
-#boxie{
-    background-color: green;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    line-height:100px;
-    position:relative;
-    top:-100px;
-    left:0%;
-    z-index:0;
-  animation: moveB 10s ease-in-out infinite alternate;
-  left: 0;
-}
 
