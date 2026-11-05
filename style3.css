@@ -41,7 +41,7 @@ button:hover {
 }
 
 .header_side {
-  background: linear-gradient(90deg, #ff2600 0%, #72ba1b 25%, #15d48a 52.52%, #2b51e6 78.52%, #ff05b0 100%);
+  background: linear-gradient(90deg, #15ff00 0%, #45ba1b 25%, #0ea024 52.52%, #077c0b 78.52%, #54ff05 100%);
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
