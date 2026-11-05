@@ -13,6 +13,7 @@ button:hover {
 body {
     margin: 0;
     min-height: 400vh;
+      background: linear-gradient(45deg, #ff6b6b, #4ecdc4);;
 }
 .box {
     width: 20%;

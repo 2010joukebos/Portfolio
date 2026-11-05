@@ -3,6 +3,13 @@ body {
     min-height: 400vh;
 }
 
+body {
+    background: linear-gradient(45deg, #33a8d2, #deca74);;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 h1 {
     color: cornsilk;
 }
@@ -40,45 +47,51 @@ html {
     text-align: center;
     color: whitesmoke;
 }
+
 button:hover {
-  background-color: aqua;
+    background-color: aqua;
 }
 
-#item1{
+#item1 {
     text-align: center;
 }
-#item2{
+
+#item2 {
     text-align: center;
 }
-#item3{
+
+#item3 {
     text-align: center;
 }
 
 .header_side {
-  background: linear-gradient(90deg, #ff2600 0%, #72ba1b 25%, #15d48a 52.52%, #2b51e6 78.52%, #ff05b0 100%);
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background: linear-gradient(90deg, #ff2600 0%, #72ba1b 25%, #15d48a 52.52%, #2b51e6 78.52%, #ff05b0 100%);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .under_side {
-  background: linear-gradient(90deg, #ff2600 0%, #72ba1b 25%, #15d48a 52.52%, #2b51e6 78.52%, #ff05b0 100%);
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background: linear-gradient(90deg, #ff2600 0%, #72ba1b 25%, #15d48a 52.52%, #2b51e6 78.52%, #ff05b0 100%);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-#co1{
+
+#co1 {
     color: white;
 }
-#co2{
+
+#co2 {
     color: rgb(24, 6, 112);
 }
 
-#sk1{
+#sk1 {
     color: white;
 }
+
 .box2 {
     width: 60%;
     height: 30%;
