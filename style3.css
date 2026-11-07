@@ -1,82 +1,132 @@
-body {
-    font-family: Arial;
-background: linear-gradient(45deg, #33a8d2, #deca74);;
-    color: white;
-    padding: 50px;
-}
 
-#Wat_is {
-    font-family: Arial;
-    text-align: center;
-    padding: 50px;
-}
-
-html {
-    scroll-behavior: smooth;
-    scroll-margin-top: 1500px;
-
-}
+/* Algemene instellingen */
 
 body {
     margin: 0;
-    min-height: 400vh;
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+    color: #243746;
+
+    background: linear-gradient(135deg, #d8eeee, #b8d6df);
 }
 
-.box {
-    width: 40%;
-    height: 6%;
-    background-color: rgba(126, 126, 126, 0.632);
-    padding: 20px;
-    margin: 20px 20px 0px 20px;
-    text-align: center;
-    border-radius: 10px;
+
+/* Navigatie */
+
+.header_side {
+    background-color: #203b50;
+
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.header_side a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header_side a:visited {
+    color: white;
+}
+
+
+/* Hoofdgedeelte */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+
+/* Pagina titel */
+
+#tot1 {
+    text-align: center;
+
+    color: #203b50;
+    background-color: transparent;
+
+    font-size: 42px;
+
+    margin: 40px 0;
+}
+
+
+/* Project kaart */
+
+.box3 {
+    max-width: 650px;
+
+    padding: 25px;
+    margin: 20px auto;
+
+    text-align: center;
+
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+
+/* Project naam */
 
 #Onderwerp_1 {
     text-align: center;
-    color: green;
-}
-button:hover {
-  background-color: rgb(163, 29, 29);
+
+    color: #167d83;
+    font-size: 30px;
+
+    margin-top: 0;
 }
 
-.header_side {
-  background: linear-gradient(90deg, #15ff00 0%, #45ba1b 25%, #0ea024 52.52%, #077c0b 78.52%, #54ff05 100%);
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.box3 a {
+    text-decoration: none;
 }
 
-#tet1{
-    text-align: center;
-    color:aquamarine;
+.box3 a:visited {
+    color: #167d83;
 }
 
-#tot1{
-    text-align: center;
-    background-color: darkblue;
-    color: aliceblue;
+
+/* Project afbeelding */
+
+.box3 img {
+    width: 100%;
+    max-width: 450px;
+
+    height: auto;
 }
 
-.box3 {
-    width: 40%;
-    height: 6%;
-    background-color: rgba(23, 128, 124, 0.632);
-    padding: 20px;
-    margin: 20px 20px 0px 20px;
-    text-align: center;
-    border-radius: 10px;
+
+/* Project beschrijving */
+
+.box3 p {
+    font-size: 18px;
+    line-height: 1.6;
+
+    margin: 20px 0;
 }
+
+
+/* Programmeertaal labels */
 
 .box4 {
-    width: 20%;
-    height: 6%;
-    background-color: rgba(43, 0, 198, 0.632);
-    padding: 10px;
-    margin: 10px 10px 0px 10px;
-    text-align: center;
-    border-radius: 10px;
-}
+    display: inline-block;
 
+    background-color: #203b50;
+    color: white;
+
+    padding: 10px 20px;
+    margin: 5px;
+
+    text-align: center;
+
+    border-radius: 8px;
+}
 
