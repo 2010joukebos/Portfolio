@@ -62,7 +62,9 @@ main {
 /* Project kaart */
 
 .box3 {
+    width: 100%;
     max-width: 650px;
+    box-sizing: border-box;
 
     padding: 25px;
     margin: 20px auto;
@@ -130,3 +132,43 @@ main {
     border-radius: 8px;
 }
 
+@media (max-width: 600px) {
+
+    main {
+        width: 95%;
+    }
+
+    #tot1 {
+        font-size: 32px;
+        margin: 25px 0;
+    }
+
+    #Onderwerp_1 {
+        font-size: 24px;
+    }
+
+    .box3 {
+        padding: 15px;
+    }
+
+    .box3 p {
+        font-size: 16px;
+    }
+
+    .box4 {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .header_side {
+        padding: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .header_side a {
+        font-size: 16px;
+    }
+
+}

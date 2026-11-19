@@ -11,6 +11,8 @@ body {
 }
 
 
+
+
 /* Navigatie */
 
 .header_side {
@@ -31,6 +33,76 @@ body {
 
 .header_side a:visited {
     color: white;
+}
+
+
+/* Navigation */
+
+.header_side {
+    background-color: #203b50;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+/* Information cards */
+
+.box,
+.box2 {
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+
+    padding: 25px;
+    margin: 20px auto;
+
+    text-align: center;
+
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 600px) {
+
+    .header_side {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .header_side a {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .intro h2 {
+        font-size: 23px;
+    }
+
+    #Ik_ben {
+        font-size: 27px;
+    }
+
+    .box,
+    .box2 {
+        padding: 15px;
+    }
+
+    .box p,
+    .box2 p {
+        font-size: 16px;
+    }
+
 }
 
 
